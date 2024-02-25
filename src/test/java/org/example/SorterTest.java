@@ -47,7 +47,7 @@ class SorterTest {
         for (i=0; i<n; i++){
             a[i]=n-i;
         }
-        int[] actual = s.QuickSort(a);
+        int[] actual = s.BubbleSort(a);
         int [] expected = {1,2,3,4,5,6,7,8,9,10};
         for (i=0; i<n; i++) {
             assertEquals(expected[i], actual[i]);
@@ -63,7 +63,7 @@ class SorterTest {
         for (i=0; i<n; i++){
             a[i]=n-i;
         }
-        long[] actual = s.QuickSort(a);
+        long[] actual = s.BubbleSort(a);
         long [] expected = {1,2,3,4,5,6,7,8,9,10};
         for (i=0; i<n; i++) {
             assertEquals(expected[i], actual[i]);
