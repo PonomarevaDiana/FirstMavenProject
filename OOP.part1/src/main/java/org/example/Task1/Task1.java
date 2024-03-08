@@ -22,7 +22,6 @@ public class Task1{
             a[i].weight = Math.random() * 100;
         }
         Phone t = new Phone();
-
         //работа метода receiveCall
         System.out.println("Работа метода receiveCall");
         t.receiveCall(name);
