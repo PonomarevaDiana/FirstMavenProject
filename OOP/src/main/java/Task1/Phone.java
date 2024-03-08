@@ -1,4 +1,4 @@
-package OOP1.Task1;
+package Task1;
 public class Phone {
     String number;
     String model;
@@ -7,7 +7,6 @@ public class Phone {
     public void receiveCall(String name) {
         System.out.println("Звонит " + name);
     }
-
     public String getNumber() {
         return number;
     }
@@ -32,5 +31,4 @@ public class Phone {
         System.out.println("Модель: " + model);
         System.out.println("Вес: " + weight);
     }
-
 }
