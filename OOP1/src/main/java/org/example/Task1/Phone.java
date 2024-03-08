@@ -1,4 +1,4 @@
-package Task1;
+package org.example.Task1;
 public class Phone {
     String number;
     String model;

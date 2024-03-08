@@ -1,4 +1,4 @@
-package Task1;
+package org.example.Task1;
 import java.util.Scanner;
 import java.lang.Math;
 import java.util.UUID;
@@ -44,3 +44,4 @@ public class Task1{
         System.out.println();
     }
 }
+
