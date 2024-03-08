@@ -1,4 +1,4 @@
-package Task2;
+package org.example.Task2;
 import java.util.Scanner;
 public class Task2 {
     public static void main(String[] args){
@@ -26,3 +26,4 @@ public class Task2 {
         System.out.println();
     }
 }
+

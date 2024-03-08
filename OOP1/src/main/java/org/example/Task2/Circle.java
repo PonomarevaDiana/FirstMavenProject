@@ -1,4 +1,5 @@
-package Task2;
+package org.example.Task2;
+
 import java.lang.Math;
 public class Circle {
     double radius;
