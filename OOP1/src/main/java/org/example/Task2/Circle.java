@@ -3,7 +3,6 @@ import java.lang.Math;
 public class Circle {
     double radius;
     String color;
-
     public double area(){
         return(Math.PI*radius*radius);
     }

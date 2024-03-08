@@ -9,17 +9,14 @@ public class Task2 {
         System.out.println("Введите цвет круга");
         String color = in.nextLine();
         Circle c =new Circle(radius,color);
-
         //работа метода area
         System.out.println("Метод area");
         System.out.println(c.area());
         System.out.println();
-
         //работа метода perimeter
         System.out.println("Метод perimeter");
         System.out.println(c.perimeter());
         System.out.println();
-
         //работа метода toString
         System.out.println("Метод toString");
         c.toString1();
