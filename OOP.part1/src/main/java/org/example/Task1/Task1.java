@@ -37,9 +37,9 @@ public class Task1{
         t.sendMessage(a);
         System.out.println();
 
-        //работа метода toString1
+        //работа метода toString
         System.out.println("Работа метода toString1");
-        a[i2].toString1();
+        a[i2].toString(true);
         System.out.println();
     }
 }

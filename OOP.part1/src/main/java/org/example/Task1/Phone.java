@@ -25,7 +25,7 @@ public class Phone {
             System.out.println(a[i].number);
         }
     }
-    public void toString1() {
+    public void toString(boolean a) {
         System.out.println("Номер: " + number);
         System.out.println("Модель: " + model);
         System.out.println("Вес: " + weight);
