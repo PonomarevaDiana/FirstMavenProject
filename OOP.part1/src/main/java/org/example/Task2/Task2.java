@@ -22,7 +22,7 @@ public class Task2 {
 
         //работа метода toString
         System.out.println("Метод toString");
-        c.toString1();
+        c.toString(true);
         System.out.println();
     }
 }

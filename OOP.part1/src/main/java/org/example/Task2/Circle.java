@@ -13,7 +13,7 @@ public class Circle {
         this.color = color;
         this.radius = radius;
     }
-    public void toString1(){
+    public void toString(boolean a){
         System.out.println("Радиус " + radius );
         System.out.println("Цвет "+ color);
         System.out.println("Площадь "+ area());
