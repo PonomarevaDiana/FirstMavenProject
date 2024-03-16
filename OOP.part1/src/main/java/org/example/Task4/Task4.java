@@ -18,7 +18,7 @@ public class Task4 {
         book.setYear(in.nextInt());
 
         //работа метода toString1
-        System.out.println("Метод toString1");
-        book.toString1();
+        System.out.println("Метод toString");
+        book.toString(true);
     }
 }
