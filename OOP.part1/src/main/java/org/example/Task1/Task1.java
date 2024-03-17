@@ -38,7 +38,7 @@ public class Task1{
         System.out.println();
 
         //работа метода toString
-        System.out.println("Работа метода toString1");
+        System.out.println("Работа метода toString");
         a[i2].toString();
         System.out.println();
     }
