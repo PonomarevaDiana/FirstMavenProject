@@ -63,12 +63,13 @@ public class Book {
     public void setYear(int year){
         this.year=year;
     }
-    public void toString(boolean a){
+    public String toString(){
         System.out.println("Книга: "+ title);
         System.out.println("Данные об авторе");
         System.out.println("Имя: "+ author.name);
         System.out.println("Пол: "+author.gender);
         System.out.println("Email: "+author.email);
         System.out.println("Год издания книги: "+year);
+        return "";
     }
 }
