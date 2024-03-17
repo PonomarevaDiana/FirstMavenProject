@@ -28,7 +28,7 @@ public class Task5 {
         //попытка второй раз заказать
         pizza.order();
         //отмечняем заказ
-        pizza.toString(true);
+        pizza.toString();
         pizza.cancel();
     }
 }
