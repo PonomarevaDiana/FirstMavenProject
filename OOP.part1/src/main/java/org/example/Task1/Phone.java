@@ -25,9 +25,10 @@ public class Phone {
             System.out.println(a[i].number);
         }
     }
-    public void toString(boolean a) {
+    public String toString() {
         System.out.println("Номер: " + number);
         System.out.println("Модель: " + model);
         System.out.println("Вес: " + weight);
+        return "";
     }
 }
