@@ -89,7 +89,8 @@ public class PizzaOrder {
     }
 
     //метод отмены заказа toString1
-    public void toString(boolean a) {
+    public String toString() {
         isOrderAccepted = false;
+        return "";
     }
 }
